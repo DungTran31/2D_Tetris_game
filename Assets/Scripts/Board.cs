@@ -23,6 +23,7 @@ public class Board : MonoBehaviour
     private UIManager uiManager;
     public Text hud_score;
 
+    private int startingHighScore;
     // Audio paramters
     AudioManager audioManager;
 
@@ -50,7 +51,10 @@ public class Board : MonoBehaviour
 
     private void Start()
     {
+        currentScore = 0;
+        hud_score.text = "0";
         SpawnPiece();
+        startingHighScore = PlayerPrefs.GetInt("highscore");
     }
 
     private void Update()
@@ -234,6 +238,7 @@ public class Board : MonoBehaviour
                 ClearedFourLine();
             }
             numberOfRowsThisTurn = 0;
+            FindObjectOfType<Board>().UpdateHighScore();
         }
     } 
     public void ClearedOneLine()
@@ -252,5 +257,13 @@ public class Board : MonoBehaviour
     public void ClearedFourLine()
     {
         currentScore += scoreFourLine;
+    }
+
+    public void UpdateHighScore()
+    {
+        if(currentScore > startingHighScore)
+        {
+            PlayerPrefs.SetInt("highscore", currentScore);
+        }
     }
 }

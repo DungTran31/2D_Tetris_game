@@ -158,6 +158,7 @@ public class Piece : MonoBehaviour
         }
         Board.currentScore += individualScore;
         individualScore = individualScoreOrigin;
+        FindObjectOfType<Board>().UpdateHighScore();
         this.board.SpawnPiece();
     }
 
