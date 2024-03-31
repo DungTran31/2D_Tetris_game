@@ -25,9 +25,14 @@ public class Piece : MonoBehaviour
 
     AudioManager audioManager;
 
+    public static bool canInput = true;
+    private bool countdownFinished = false;
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        countdownFinished = false;
+        CountdownController.CountdownFinished += OnCountdownFinished;
     }
 
     public void Initialize(Board board, Vector3Int position, TetrominoData data)
@@ -39,6 +44,7 @@ public class Piece : MonoBehaviour
         this.stepTime = Time.time + this.stepDelay;
         this.moveTime = Time.time + this.moveDelay;
         this.lockTime = 0f;
+        canInput = true;
 
         if(this.cells == null)
         {
@@ -50,43 +56,54 @@ public class Piece : MonoBehaviour
             this.cells[i] = (Vector3Int)data.cells[i];
         }
     }
+    private void OnDestroy()
+    {
+        CountdownController.CountdownFinished -= OnCountdownFinished; 
+    }
 
+    private void OnCountdownFinished()
+    {
+        countdownFinished = true;
+    }
     private void Update()
     {
+        if (!countdownFinished) return;
         this.board.Clear(this);
 
         // We use a timer to allow the player to make adjustments to the piece
         // before it locks in place
         this.lockTime += Time.deltaTime;
+        if (canInput)
+        {
+            if (Input.GetKeyDown(KeyCode.Q)) 
+            {
+                audioManager.PlaySFX(audioManager.rotate);
+                Rotate(-1);
+            } 
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                audioManager.PlaySFX(audioManager.rotate);
+                Rotate(1);
+            }
 
-        if (Input.GetKeyDown(KeyCode.Q)) 
-        {
-            audioManager.PlaySFX(audioManager.rotate);
-            Rotate(-1);
-        } 
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            audioManager.PlaySFX(audioManager.rotate);
-            Rotate(1);
-        }
+            // Handle hard drop
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                HardDrop();
+            }
 
-        // Handle hard drop
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            HardDrop();
-        }
+            // Allow the player to hold movement keys but only after a move delay
+            // so it does not move too fast
+            if (Time.time > moveTime)
+            {
+                HandleMoveInputs();
+            }
 
-        // Allow the player to hold movement keys but only after a move delay
-        // so it does not move too fast
-        if (Time.time > moveTime)
-        {
-            HandleMoveInputs();
-        }
-
-        // Advance the piece to the next row every x seconds
-        if (Time.time > stepTime)
-        {
-            Step();
+            // Advance the piece to the next row every x seconds
+            if (Time.time > stepTime)
+            {
+                Step();
+            }
         }
 
         UpdateIndividualScore();

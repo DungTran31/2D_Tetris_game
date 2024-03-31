@@ -26,7 +26,6 @@ public class Board : MonoBehaviour
     private int startingHighScore;
     // Audio paramters
     AudioManager audioManager;
-
     public RectInt Bounds
     {
         get
@@ -47,10 +46,13 @@ public class Board : MonoBehaviour
             this.tetrominoes[i].Initialize();
         }
         SetNextTetromino();
+        CountdownController.CountdownFinished += StartGame;
     }
 
-    private void Start()
+    private void StartGame()
     {
+        this.tilemap.ClearAllTiles();
+        Time.timeScale = 1f;
         currentScore = 0;
         hud_score.text = "0";
         SpawnPiece();
@@ -104,7 +106,9 @@ public class Board : MonoBehaviour
 
     private void GameOver()
     {
-        this.tilemap.ClearAllTiles();
+        Piece.canInput = false;
+        Time.timeScale = 0f;
+        // this.tilemap.ClearAllTiles();
         audioManager.PlaySFX(audioManager.gameOver);
         uiManager.GameOver();
     }

@@ -10,7 +10,6 @@ public class Ghost : MonoBehaviour
     public Tilemap tilemap { get; private set; }
     public Vector3Int[] cells { get; private set; }
     public Vector3Int position { get; private set; }
-
     private void Awake()
     {
         this.tilemap = GetComponentInChildren<Tilemap>();
@@ -19,10 +18,13 @@ public class Ghost : MonoBehaviour
 
     private void LateUpdate()
     {
-        Clear();
-        Copy();
-        Drop();
-        Set();
+        if (CountdownController.countdownCompleted)
+        {
+            Clear();
+            Copy();
+            Drop();
+            Set();
+        }
     }
 
     private void Clear()
