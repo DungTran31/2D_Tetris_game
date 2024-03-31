@@ -25,7 +25,10 @@ public struct TetrominoData
     {
         this.cells = Data.Cells[this.tetromino];
         this.wallKicks = Data.WallKicks[this.tetromino];
-
     }
 
+    public Tetromino GetTetromino()
+    {
+        return this.tetromino;
+    }
 }

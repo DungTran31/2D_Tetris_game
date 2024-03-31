@@ -6,11 +6,14 @@ public class Board : MonoBehaviour
 {
     public Tilemap tilemap { get; private set; }
     public Tilemap nextTetrominoTilemap;
+    public Tilemap holdTetrominoTilemap;
     public Piece activePiece { get; private set; }
     public TetrominoData[] tetrominoes;
     private TetrominoData nextTetromino;
+    private TetrominoData holdTetromino;
     public Vector3Int spawnPosition;
     public Vector3Int nextPosition;
+    public Vector3Int holdPosition;
     public Vector2Int boardSize = new Vector2Int(10, 20);
 
     // Scoring parameters
@@ -26,6 +29,10 @@ public class Board : MonoBehaviour
     private int startingHighScore;
     // Audio paramters
     AudioManager audioManager;
+
+    public static bool isPaused = false;
+    TetrominoData currentData;
+
     public RectInt Bounds
     {
         get
@@ -46,7 +53,8 @@ public class Board : MonoBehaviour
             this.tetrominoes[i].Initialize();
         }
         SetNextTetromino();
-        CountdownController.CountdownFinished += StartGame;
+        SetHoldTetromino();
+        StartGame();
     }
 
     private void StartGame()
@@ -61,10 +69,68 @@ public class Board : MonoBehaviour
 
     private void Update()
     {
-        UpdateScore();
-        UpdateUI();
+        if (!isPaused) // Kiểm tra xem trò chơi có đang tạm dừng không
+        {
+            UpdateScore();
+            UpdateUI();
+        }
+        CheckUserInput();
+    }
+    private void CheckUserInput()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (Time.timeScale == 1)
+            {
+                PauseGame();
+            }
+            else
+            {
+                if (uiManager.pauseScreen.activeSelf) // Kiểm tra xem màn hình pause có đang hiển thị không
+                {
+                    ResumeGame();
+                }
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter))
+        {
+            // Kiểm tra khi người dùng ấn phím Enter hoặc Enter trên bàn phím số
+            SwapHoldTetromino(); ;
+        }
+    }
+    public void Option()
+    {
+        audioManager.PlaySFX(audioManager.clicked);
+        uiManager.optionScreen.SetActive(true);
+
+        if (uiManager.pauseScreen.activeSelf)
+        {
+            uiManager.pauseScreen.SetActive(false);
+        }
     }
 
+    public void CloseOption()
+    {
+        audioManager.PlaySFX(audioManager.clicked);
+        uiManager.optionScreen.SetActive(false);
+        uiManager.pauseScreen.SetActive(true);
+    }
+    private void PauseGame()
+    {
+        Time.timeScale = 0;
+        uiManager.Pause();
+        audioManager.MusicSource.Pause();
+        isPaused = true;
+    }
+
+    private void ResumeGame()
+    {
+        audioManager.MusicSource.Play();
+        Time.timeScale = 1;
+        uiManager.pauseScreen.SetActive(false);
+        isPaused = false;
+    }
 
     public void SetNextTetromino()
     {
@@ -84,9 +150,60 @@ public class Board : MonoBehaviour
         }
     }
 
+    public void SetHoldTetromino()
+    {
+        int random = Random.Range(0, tetrominoes.Length);
+        holdTetromino = tetrominoes[random];
+        // Debug.Log(holdTetromino.tetromino.ToString());
+        DrawHoldTetromino();
+    }
+
+    private void DrawHoldTetromino()
+    {
+        holdTetrominoTilemap.ClearAllTiles();
+
+        foreach (var cell in holdTetromino.cells)
+        {
+            holdTetrominoTilemap.SetTile((Vector3Int)cell + holdPosition, holdTetromino.tile);
+        }
+    }
+
+    private void SwapHoldTetromino()
+    {
+        Vector3Int currentPosition = this.activePiece.position;
+        for (int i = 0; i < this.activePiece.cells.Length; i++)
+        {
+            Vector3Int cell = this.activePiece.cells[i] + this.activePiece.position;
+            this.tilemap.SetTile(cell, null);
+        }
+
+        TetrominoData temp = currentData;
+        currentData = holdTetromino;
+        holdTetromino = temp;
+        DrawHoldTetromino();
+        Vector3Int newPosition = currentPosition;
+        Debug.Log(newPosition);
+
+        if (currentData.GetTetromino().Equals(Tetromino.I) && currentPosition.x >= 2)
+        {
+            newPosition += Vector3Int.left;
+        } 
+        else if (currentData.GetTetromino().Equals(Tetromino.I) && currentPosition.x <= -4)
+        {
+            newPosition += Vector3Int.right;
+        }
+        this.activePiece.Initialize(this, newPosition, currentData);
+
+        if (IsValidPosition(this.activePiece, newPosition))
+        {
+            Set(activePiece);
+        }
+    }
+
+    
     public void SpawnPiece()
     {
-        TetrominoData currentData = nextTetromino;
+        currentData = nextTetromino;
 
         this.activePiece = GetComponentInChildren<Piece>();
         this.activePiece.Initialize(this, spawnPosition, currentData);
@@ -110,6 +227,7 @@ public class Board : MonoBehaviour
         Time.timeScale = 0f;
         // this.tilemap.ClearAllTiles();
         audioManager.PlaySFX(audioManager.gameOver);
+        audioManager.StopMusic();
         uiManager.GameOver();
     }
 
@@ -242,7 +360,7 @@ public class Board : MonoBehaviour
                 ClearedFourLine();
             }
             numberOfRowsThisTurn = 0;
-            FindObjectOfType<Board>().UpdateHighScore();
+            UpdateHighScore();
         }
     } 
     public void ClearedOneLine()

@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Data.Common;
 using UnityEngine;
-using UnityEngine.UIElements;
-
+#if UNITY_IOS
+using UnityEngine.iOS;
+#endif
 public class Piece : MonoBehaviour
 {
     public Board board { get; private set; }
@@ -26,13 +26,19 @@ public class Piece : MonoBehaviour
     AudioManager audioManager;
 
     public static bool canInput = true;
-    private bool countdownFinished = false;
 
+#if UNITY_IOS
+    // Touch movement parameters
+    private int touchSensitivityHorizontal = 8;
+    private int touchSensitivityVertical = 4;
+
+    Vector2 previousUnitPosition = Vector2.zero;
+    Vector2 direction = Vector2.zero;
+    bool moved = false;
+#endif
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        countdownFinished = false;
-        CountdownController.CountdownFinished += OnCountdownFinished;
     }
 
     public void Initialize(Board board, Vector3Int position, TetrominoData data)
@@ -56,59 +62,113 @@ public class Piece : MonoBehaviour
             this.cells[i] = (Vector3Int)data.cells[i];
         }
     }
-    private void OnDestroy()
-    {
-        CountdownController.CountdownFinished -= OnCountdownFinished; 
-    }
 
-    private void OnCountdownFinished()
-    {
-        countdownFinished = true;
-    }
     private void Update()
     {
-        if (!countdownFinished) return;
         this.board.Clear(this);
 
         // We use a timer to allow the player to make adjustments to the piece
         // before it locks in place
         this.lockTime += Time.deltaTime;
-        if (canInput)
+        if (!Board.isPaused)
         {
-            if (Input.GetKeyDown(KeyCode.Q)) 
+            if (canInput)
             {
-                audioManager.PlaySFX(audioManager.rotate);
-                Rotate(-1);
-            } 
-            else if (Input.GetKeyDown(KeyCode.E))
+#if UNITY_IOS
+            // Touch Input
+            if(Input.touchCount > 0)
             {
-                audioManager.PlaySFX(audioManager.rotate);
-                Rotate(1);
-            }
+                Touch t = Input.GetTouch(0);
 
-            // Handle hard drop
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                HardDrop();
-            }
+                if(t.phase == TouchPhase.Began)
+                {
+                    previousUnitPosition = new Vector2(t.position.x, t.position.y);
+                }
+                else if(t.phase == TouchPhase.Moved)
+                {
+                    Vector2 touchDeltaPosition = t.deltaPosition;
+                    direction = touchDeltaPosition.normalized;
 
-            // Allow the player to hold movement keys but only after a move delay
-            // so it does not move too fast
-            if (Time.time > moveTime)
-            {
-                HandleMoveInputs();
+                    if (Mathf.Abs(t.position.x - previousUnitPosition.x) >= touchSensitivityHorizontal && direction.x < 0 && t.deltaPosition.y > -10 && t.deltaPosition.y < 10) 
+                    {
+                        // Move left
+                        audioManager.PlaySFX(audioManager.move);
+                        Move(Vector2Int.left);
+                        previousUnitPosition = t.position;
+                        moved = true;
+                    }
+                    else if (Mathf.Abs(t.position.x - previousUnitPosition.x) >= touchSensitivityHorizontal && direction.x > 0 && t.deltaPosition.y > -10 && t.deltaPosition.y < 10)
+                    {
+                        // Move right
+                        audioManager.PlaySFX(audioManager.move);
+                        Move(Vector2Int.right);
+                        previousUnitPosition = t.position;
+                        moved = true;
+                    }
+                    else if (Mathf.Abs(t.position.y - previousUnitPosition.y) >= touchSensitivityVertical && direction.y < 0 && t.deltaPosition.x > -10 && t.deltaPosition.x < 10)
+                    {
+                        // Move down
+                        audioManager.PlaySFX(audioManager.move);
+                        if (Move(Vector2Int.down))
+                        {
+                            // Update the step time to prevent double movement
+                            stepTime = Time.time + stepDelay;
+                        }
+                        previousUnitPosition = t.position;
+                        moved = true;
+                    }
+                }
+                else if(t.phase == TouchPhase.Ended)
+                {
+                    if(!moved && t.position.x > Screen.width / 4)
+                    {
+                        audioManager.PlaySFX(audioManager.rotate);
+                        Rotate(1);
+                    }
+                    moved = false;
+                }
             }
+#else
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    audioManager.PlaySFX(audioManager.rotate);
+                    Rotate(-1);
+                }
+                else if (Input.GetKeyDown(KeyCode.E))
+                {
+                    audioManager.PlaySFX(audioManager.rotate);
+                    Rotate(1);
+                }
 
-            // Advance the piece to the next row every x seconds
-            if (Time.time > stepTime)
-            {
-                Step();
+                // Handle hard drop
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    HardDrop();
+                }
+
+                // Allow the player to hold movement keys but only after a move delay
+                // so it does not move too fast
+                if (Time.time > moveTime)
+                {
+                    HandleMoveInputs();
+                }
+
+                // Advance the piece to the next row every x seconds
+                if (Time.time > stepTime)
+                {
+                    Step();
+                }
+
+
             }
+#endif
+            UpdateIndividualScore();
         }
-
-        UpdateIndividualScore();
+        
         this.board.Set(this);
     }
+
+    
 
     private void HandleMoveInputs()
     {

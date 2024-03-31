@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -11,8 +11,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip rotate;
     public AudioClip land;
     public AudioClip lineCleared;
+    public AudioClip gameStart;
     public AudioClip gameOver;
     public AudioClip countdown;
+    public AudioClip clicked;
 
     private void Start()
     {
@@ -20,8 +22,15 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
+    // Thay đổi mức độ truy cập của musicSource từ private sang public
+    public AudioSource MusicSource => musicSource;
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);
+    }
+
+    public void StopMusic()
+    {
+        musicSource.Stop();
     }
 }
