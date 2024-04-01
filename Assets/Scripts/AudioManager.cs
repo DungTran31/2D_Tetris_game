@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         musicSource.clip = background;
-        musicSource.Play();
+        //musicSource.Play();
     }
 
     // Thay đổi mức độ truy cập của musicSource từ private sang public

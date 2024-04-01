@@ -21,8 +21,17 @@ public class ClickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         _source.PlayOneShot(_uncompressClip);
     }
 
-    public void IWasClicked()
+    public void Play()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void Quit()
+    {
+        Application.Quit(); //Quits the game (only works in build)
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; //Exits play mode
+#endif
     }
 }

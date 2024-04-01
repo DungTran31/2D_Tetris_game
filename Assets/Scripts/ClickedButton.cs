@@ -6,8 +6,11 @@ public class ClickedButton : MonoBehaviour
     {
         if (SettingMenuManager.isVibrate)
         {
-            Handheld.Vibrate();
             Debug.Log("Vibrate");
-        }
+        } 
+        else
+        {
+            Debug.Log("Vibrate is disabled. Performing alternative action...");
+        }    
     }
 }

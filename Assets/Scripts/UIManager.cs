@@ -10,9 +10,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject pauseScreen;
     [SerializeField] public GameObject optionScreen;
     public Text highScoreText;
+    public Text hud_countdown;
     AudioManager audioManager;
-    public static UIManager instance;
-
+    Board board;
     private void Awake()
     {
         gameOverScreen.SetActive(false);
@@ -20,21 +20,9 @@ public class UIManager : MonoBehaviour
         optionScreen.SetActive(false);
         highScoreText.text = PlayerPrefs.GetInt("highscore").ToString();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        if (instance == null)
-        {
-            // Nếu chưa, gán instance này cho GameManager
-            instance = this;
-        }
-        else
-        {
-            // Nếu đã có instance khác tồn tại, huỷ bản sao này
-            Destroy(gameObject);
-        }
-
+        board = GameObject.FindGameObjectWithTag("Board").GetComponent<Board>();
     }
 
-
-        // Kiểm tra xem đã có instance của GameManager chưa
     #region Game Over Functions
     //Game over function
     public void GameOver()
@@ -50,22 +38,42 @@ public class UIManager : MonoBehaviour
     //Restart level
     public void Restart()
     {
+        board.ClearTiles();
         audioManager.PlaySFX(audioManager.clicked);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        audioManager.MusicSource.Play();
+        CountdownController.countdownCompleted = false;
     }
 
     public void RestartPause()
     {
         Board.isPaused = false;
         Time.timeScale = 1.0f;
+        board.ClearTiles();
         audioManager.PlaySFX(audioManager.clicked);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        audioManager.MusicSource.Play();
+        CountdownController.countdownCompleted = false;
     }
 
     public void MainMenu()
     {
+        board.ClearTiles();
         audioManager.PlaySFX(audioManager.clicked);
         SceneManager.LoadScene(0);
+        audioManager.MusicSource.Play();
+        CountdownController.countdownCompleted = false;
+    }
+
+    public void MainMenuPause()
+    {
+        Board.isPaused = false;
+        Time.timeScale = 1.0f;
+        board.ClearTiles();
+        audioManager.PlaySFX(audioManager.clicked);
+        SceneManager.LoadScene(0);
+        audioManager.MusicSource.Play();
+        CountdownController.countdownCompleted = false;
     }
 
     //Quit game/exit play mode if in Editor

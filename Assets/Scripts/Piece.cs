@@ -26,7 +26,7 @@ public class Piece : MonoBehaviour
     AudioManager audioManager;
 
     public static bool canInput = true;
-
+    private bool countdownFinished = false;
 #if UNITY_IOS
     // Touch movement parameters
     private int touchSensitivityHorizontal = 8;
@@ -39,6 +39,7 @@ public class Piece : MonoBehaviour
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        countdownFinished = false;
     }
 
     public void Initialize(Board board, Vector3Int position, TetrominoData data)
@@ -51,8 +52,8 @@ public class Piece : MonoBehaviour
         this.moveTime = Time.time + this.moveDelay;
         this.lockTime = 0f;
         canInput = true;
-
-        if(this.cells == null)
+        countdownFinished = true;
+        if (this.cells == null)
         {
             this.cells = new Vector3Int[data.cells.Length];
         }
@@ -65,6 +66,7 @@ public class Piece : MonoBehaviour
 
     private void Update()
     {
+        if (!countdownFinished) return;
         this.board.Clear(this);
 
         // We use a timer to allow the player to make adjustments to the piece

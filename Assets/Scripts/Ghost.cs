@@ -19,10 +19,13 @@ public class Ghost : MonoBehaviour
 
     private void LateUpdate()
     {
-        Clear();
-        Copy();
-        Drop();
-        Set();
+        if (trackingPiece != null && CountdownController.countdownCompleted)
+        {
+            Clear();
+            Copy();
+            Drop();
+            Set();
+        }
     }
 
     private void Clear()
@@ -44,27 +47,30 @@ public class Ghost : MonoBehaviour
 
     private void Drop()
     {
-        Vector3Int position = trackingPiece.position;
-
-        int current = position.y;
-        int bottom = -this.board.boardSize.y / 2 - 1;
-
-        this.board.Clear(trackingPiece);
-
-        for (int row = current; row >= bottom; row--)
+        if (trackingPiece != null)
         {
-            position.y = row;
-            if (this.board.IsValidPosition(this.trackingPiece, position))
-            {
-                this.position = position;
-            }
-            else
-            {
-                break;
-            }
-        }
+            Vector3Int position = trackingPiece.position;
 
-        this.board.Set(trackingPiece);
+            int current = position.y;
+            int bottom = -this.board.boardSize.y / 2 - 1;
+
+            this.board.Clear(trackingPiece);
+
+            for (int row = current; row >= bottom; row--)
+            {
+                position.y = row;
+                if (this.board.IsValidPosition(this.trackingPiece, position))
+                {
+                    this.position = position;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            this.board.Set(trackingPiece);
+        }
     }
 
     private void Set()

@@ -1,0 +1,6172 @@
+fileFormatVersion: 2
+guid: 70bce126f740edc4daae9eec80536c2a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hold_Preview_Border_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1ecd44bd64c340b8f10957df7f068
+      internalID: -975224022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcdad8c58e7731409890712495342d6
+      internalID: -906391295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68394085b335f24097cf2c97e1778f6
+      internalID: 458131537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6550c9d7b3a0ef4439da8ff1ed610a19
+      internalID: 48924756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3b870d117986449905adb469db486
+      internalID: -2031554637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c28f85a7cb004dae9127899c5589b
+      internalID: -696425769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb950327068fa49bf4ef993bb93f54
+      internalID: -1375135918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a46639651a97f42b817213f9434b8e
+      internalID: -1024050214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419e42250e025ad42a1c374fb7c97106
+      internalID: -833291323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff04acaec14f00d4bb2a98593e76667b
+      internalID: 2062033755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5088dd690071a44b9ef11736e13c113
+      internalID: -36699767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15127e18658e0e746a3dce0cf26a96a3
+      internalID: -708699142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebef23b66008abf41b01d4081080398c
+      internalID: 1579424988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3807986b79939ca4180ab27d036f4868
+      internalID: 313984781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3df86fa323ea48b48bab7c0d4838f
+      internalID: 934855390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f48c55bb1138f14daa1735676e33b1a
+      internalID: -1085016130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e29e0d0faf7bc4792a366d97c7c9f2
+      internalID: 1988258771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab602623d732d64084266bcfb5ff16e
+      internalID: 708004707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159414d16e2e21545882dda4668a0c76
+      internalID: 348565396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e71e31ace10f42a2ed61f3c34808b
+      internalID: -864108741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b304f14e34db4e84d078fead11778
+      internalID: 1665994613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39652ba0fdb0b4aa12197bebdbeff5
+      internalID: -1834342438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a2429c25471e246a3ef5eb00e171ca
+      internalID: 543927362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c1eea897216f349b8208b4eebbcb9c
+      internalID: 474518711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eafc209674590b46b5b61260f4a159f
+      internalID: 2087111288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a32d0ec535c10d42b40996d76c19546
+      internalID: -202739750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631ccc2971cddc74fac041163560af51
+      internalID: -515383263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bf7cd43aacc3749b0ce8c0de7bb4b9
+      internalID: -116547950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b1e0bb5743d224d983e6b254f1f030
+      internalID: 471323737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d205df26644b4ab1805c2e9f015cb
+      internalID: 1890173241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881ceb04e120ebb49a1166b9f6199ef1
+      internalID: 1259641092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae8147b3322fde4c8aa6292aa876006
+      internalID: 49285388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f130d9e5cb11715468b388519d2a9ede
+      internalID: -1356073992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cabdb301c142ce49bfd7fa5df575415
+      internalID: 450161112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c15bd580535094cb31a67661ccfa53
+      internalID: -2076797617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0210fd1ce785e49a023ea1ce8c6684
+      internalID: -1067612062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b711aba29221f624f84f1b055184ec05
+      internalID: 1584064328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a004e85d0abb8ee4d9e5bc25cbd6e9e5
+      internalID: 1021388743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c78c4b30662fff429e64df2c85d9045
+      internalID: -686505601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81746d815dd395b49ac23abd1e97b406
+      internalID: -1829946303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6191ac99d709a4eb38f8d58cdb1aa4
+      internalID: 1809087334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991d2853566a3f4ab450cdd09ee3a4e
+      internalID: -1832788610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791964e86b5117f4ca586ea38b5dc03e
+      internalID: 2101630953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0250e9ce6b3e6e46a9cb8a0e7e65616
+      internalID: 734084189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ae97622c33224585dcd62427030d1
+      internalID: -360147635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ccc51251fb04458312e0255ab6ad0
+      internalID: 1420477384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd72fc8f2100e6438bbc557a6352725
+      internalID: -243283733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd3b6b52d25bb428096655d34c102f
+      internalID: 1440966947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0519a3342472704e81de7b70700c7d9
+      internalID: -86467868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_49
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28458b7d777fdb74587cd0ae671e3c22
+      internalID: -221699606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d8f36f339734c429dc043bfb3c761d
+      internalID: -1996230661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_51
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b638e27030194fabf89881be61599
+      internalID: 1726708996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63d5291cc7ddb408b7a4df9187097d
+      internalID: 1042839850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_53
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e005a8932ec17b43b52c47662953ab8
+      internalID: 176321652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_54
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925b319981ab1c542adcce6f4009c2b4
+      internalID: -527286773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_55
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45e8ca9e2cea446b989adb6dd294fa
+      internalID: 1958446480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_56
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa063632efceaf4da6a8d3d93112065
+      internalID: -1632961834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_57
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa9b4c900df70a4dab5a7fbf06006f4
+      internalID: -143113182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff60797a23b80843bc96f10d58d64c5
+      internalID: -278794568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_59
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1703bdeef6653e348815edd871d95f10
+      internalID: 910786861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_60
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04526438143b0743a8eac4deb9d3137
+      internalID: 1782687107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_61
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce83c1cc93db4994d969efc885246e9b
+      internalID: 642792500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_62
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c3bb51b63d6ec478d02dc033c877a8
+      internalID: 1321709657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_63
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50563457a2549e43b771f1c79e29d2a
+      internalID: 1055480603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbd3615111767c49b19ab33aa96828f
+      internalID: -1202063053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def64c7da3419ed489ac41087f94dcbd
+      internalID: -965286476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_66
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70bb3e06a3effa4abfee4dc74567b78
+      internalID: 820762536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d7eeda17a9cfc479a10a2edd76a1c0
+      internalID: -1302997006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700ab3ca9e9cc044f85d6ec97c6d6b77
+      internalID: -983842298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_69
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097619525fc715c418d184eeec40e159
+      internalID: 1853390894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a600d6b67e54e40a538b518e8ff538
+      internalID: -362553754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0113f2e5ae3714c9c3e4263707ab68
+      internalID: 1034117067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_72
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b780970855873ec4abbc2bd42731f2f9
+      internalID: -1607412726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc8e6545e4fa8a44a5c8a62bea6b469
+      internalID: -297769539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d373565f65fb44ab77048e4bd817c
+      internalID: 1758214426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_75
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9612317ea0164db8b99f042d0a33d
+      internalID: -315228593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad05b177103173a4e98a8ef42f79b8ad
+      internalID: -855825241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4809cb253ade5140bbb90730be5ea33
+      internalID: -880506735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_78
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d806d9c53493ee43938242a323abd72
+      internalID: 1566310929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4262aecb0cf3448121464ec1ffc4d
+      internalID: 1691661299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f482ef6b448284aaccda13cf2d210a
+      internalID: -185522993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_81
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18653198f2091d41b60a84f0dbb6ccd
+      internalID: -2027339333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e0fbd88a2bede4fab7281000f14c18
+      internalID: -1338414706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e41f50883d0164e8a0b4a939631e1b
+      internalID: 762882231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_84
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e7d9b76c5a5d4785d72f68c80e9d5
+      internalID: -1727532996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc096c4e576e64489dba3707001e24b
+      internalID: -1675633202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7479173aba07a499ec216127af9821
+      internalID: 222578542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_87
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1be2a566039f9478a67e1e3492964f
+      internalID: 1994479070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdbf69a3ad29f94d9c7f28925faaee2
+      internalID: 461878462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b793f013280912a4abe9e8e01ff5af3b
+      internalID: -1053001034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_90
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d295306601dd74a974ae1c15f8acdb
+      internalID: -1996219149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073254c377bd9dc47bc94791745b65de
+      internalID: -1718786437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa0eb90fc83bad44a67dbb2b7904ec5
+      internalID: 746795303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_93
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f5119812c9f73468fb8bf2fe51c55b
+      internalID: 276497936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa8f16c8127ad42b578b2fd2fa66c8
+      internalID: 616002590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f380c54c638c274596b9b617dbfa1f3
+      internalID: 1547650111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_96
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3138
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee4d382759e59042800508ac3249d83
+      internalID: 1106952841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3074
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f7a41b7f3bc74e8d05460bd901dc2
+      internalID: 1723639119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3074
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5071c3917b4b95f4baea5e8b461ab355
+      internalID: -576027467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_99
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3074
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1694d8443744184baf79646bafac1bd
+      internalID: -1656255994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3010
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d72644a2fd4534ba5f220f2e84aec7
+      internalID: -153168413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3010
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fc4510f9e3edf4fb55df878e6b9cc4
+      internalID: -927932204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_102
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3010
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c1a70280a2c0488ac649325957506
+      internalID: 1942949167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2946
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8028a7c765446f04689a2d79cfea8c24
+      internalID: 2135744988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2946
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d9d6ce14095f04eb65293f4e889961
+      internalID: -761178689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_105
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2946
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05129fe68930a49418806b5de89d3821
+      internalID: -189319333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2882
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f56d7a3ccca12e4690652918fafb5b1
+      internalID: 1136291410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2882
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a8ad90b79662b4fa05210de9cc4887
+      internalID: -1129187907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_108
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2882
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bd4c131cff1f54bb8a73d4e9e176ca
+      internalID: -820979664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d995dc67ba3ec643b691ffbc4ddf9e2
+      internalID: 1999557180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08099e9081107428628c9983e09d38
+      internalID: -360120286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_111
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf2fa03538a744f82054d9bfc07770
+      internalID: -364563899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2754
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8965954f533255148a15bd09619acf32
+      internalID: -639261797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2754
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad55f55f9fc7d4cb7bb21ea923bc08
+      internalID: -1191212775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_114
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2754
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74213693428b004f9d01e5c14daef63
+      internalID: -1446016601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2690
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff01534c2044db4989945639a6b8c38
+      internalID: 2102929660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2690
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63183d60d4e24cb43bbc5b4ee500e5f5
+      internalID: 679640138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_117
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2690
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83de215864f9834ea2f5e540e0e73ae
+      internalID: -1606555929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2626
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4073fa9f53a64383c6e6fa173b971
+      internalID: -1083630420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2626
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f8d751a8fa3724e891af92d701b86a
+      internalID: -790085079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_120
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2626
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfce2a2f03c19242befb05549464844
+      internalID: 165312402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2562
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f359a71bf204a479f1477f1a552598
+      internalID: 746850712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2562
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2625ea732af8948a959868a8080111
+      internalID: -1951888487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_123
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2562
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e73c3905667c749928a281172b062e
+      internalID: 114202538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2498
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d2c7245e09f4a4a9f17aef3dcb5f2f
+      internalID: -1839659640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2498
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d30364ec301b044990198d7a0ac672
+      internalID: 1770126267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_126
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2498
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c816b88223909e2498d061cc753296fe
+      internalID: -1655842940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2434
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d93d0c480e4284fb6f3ccb16ec2a53
+      internalID: 255028481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2434
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139e576d0f14b94da977eda8fcc1f27
+      internalID: -568214252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_129
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2434
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdb87ff04990247aca0c9afce00c28
+      internalID: 551857345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eb0adfd3ed76b4d9add5e9cd233460
+      internalID: -232031660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de2002701701434181ab62e43c1aaf0
+      internalID: 916381155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_132
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45c47b0eb1af9b488abd97431209a01
+      internalID: 1978829529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad870cde61f40a41b5cc2517183d353
+      internalID: -1592188442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eeec1eb005cea4f874857d0efc563d
+      internalID: -1979293508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_135
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ae8887e78cef74b9958bcaededda06
+      internalID: -348049974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e16923ecf87b604d918f4207a27c9aa
+      internalID: -413339159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb805f7dc40d27d46a57a27d40a53ddd
+      internalID: 109222613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_138
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9c9cd7fe4b0a94b9fd6e4c17434d14
+      internalID: 1116457714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e5f7188a226d749bf5bc0faf58ed90
+      internalID: 731480070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555e28351dc84f9478ece339a941d678
+      internalID: 1899088833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_141
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c825781a77f04b863024b13d877a4
+      internalID: 2102947434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc629135258164b468c286adeeefda05
+      internalID: -1482690403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2114
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa4ad7e57718974ea65918b8e49378a
+      internalID: 905061993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_144
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2114
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7124b3f6790742902928c368e34ee
+      internalID: 1918256709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c205daa0392dc69418c9a1b572ae86ee
+      internalID: -743325347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071e4a0c4307ce439a34281647539db
+      internalID: 325315273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_147
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895c69936e8882046baf3a6d2664c971
+      internalID: 1875101394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2b80f035bbea41a3849ae6f588948
+      internalID: 1800074628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb1f6412b7537e4da76493402a6c079
+      internalID: -232744236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_150
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b28c0cf7de39a4594a7094c25b3bfd
+      internalID: 1169161638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1922
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b270fdfe0ec8d4d9282949e9ff7c6f
+      internalID: 1572412527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_152
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1922
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec832f5f32db3c04c91acc1d80a353ec
+      internalID: -611905183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_153
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1922
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd644c7feeee84aa1ab4c90fb04683
+      internalID: -1581675846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1858
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fb0750fd0a4914f813b290b05fb4ba
+      internalID: -24119233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_155
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1858
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94957728dbf6748b8bee0f01526548
+      internalID: -603280576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_156
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1858
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcaa8cc4e41b73438186097b2d2d4a2
+      internalID: 1920099179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1794
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cae5a9653072346b8c807e495dba52
+      internalID: 1345792244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1794
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44fc9faa7ee4cb43ba870deb4dc6770
+      internalID: -1554274008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_159
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1794
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ef81ee75a9bac458d186ab7384429c
+      internalID: 1247770848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d22385de2df1d640937be8c320b2580
+      internalID: 219565013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47d5ecf2e85cee428d544fab70fb502
+      internalID: -136386623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_162
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14fd29960269ff45a23090b351b011c
+      internalID: 1240200904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1666
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef84d1d1bb8fe4e96cae4cb35f2e38
+      internalID: 1538540200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1666
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ac85d1927c81419599ae17dfb7a7f
+      internalID: -1314093180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_165
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1666
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0dee4c7bf11da41af5eb1994c7049f
+      internalID: -536272107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1b2e680fab5548834439a57108a33
+      internalID: -2101965509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f20cbf3c8af1944b42d3c1bf5e8135
+      internalID: 302104134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_168
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061898edd3f430d4985b1df13a7178c1
+      internalID: -1912416045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1538
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f810f8df81ba547989c6eff01eacf1
+      internalID: 1980885108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1538
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b5dda8f4a6cb947b2811a60ef650c7
+      internalID: 385050091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_171
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1538
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0424d790730491498c210ab14b04b16
+      internalID: 531859571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1474
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eff3f2844334d4abb18a3df4b29a33
+      internalID: 181289711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1474
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe0d39a94f401469b8259f06492a11
+      internalID: -732912237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_174
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1474
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6471316699495409f6548e72558793
+      internalID: 97914090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0116e04f46621db4995664fc911d7e10
+      internalID: 1886713088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1410
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed6d336a7d8fa04dbeadbbd6c7656fc
+      internalID: 1697029383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_177
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1410
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b69ffc0356d1d48b0c4d624cfe9b4e
+      internalID: -1968055909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f12949849fe90449947bf76560c17b2
+      internalID: -1968276035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_179
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219374202980d5e4387cb08827fbb80d
+      internalID: -1411633619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_180
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a822b32d2e57edd4d83726641c0e1189
+      internalID: -1786949048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_181
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1282
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efa194507e9549498bb7471ecfacf5e
+      internalID: -734434604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_182
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1282
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8196114e7c00943a0512b3fcaaa204
+      internalID: 371259445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_183
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1282
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e0414820de445499fc9cffedfb48d8
+      internalID: 1920632626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a067517853146ca41a9cac6a11022ee8
+      internalID: 611117683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1218
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e53d02bc64f464cab1331d55a9c123
+      internalID: 592032508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_186
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1218
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737e2e27f1b240342bf296d8f5fba471
+      internalID: -1733759967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1154
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418011ff8f1ecbe40a1af8592830f270
+      internalID: -1640285186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1154
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ceab807dd85ee40aced78fc81f5922
+      internalID: -973482093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_189
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1154
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59618199ef69d59488b55b4486a02b4b
+      internalID: -710293817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c6741ade4ec649b767a33860130cb
+      internalID: -951635134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_191
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe455d4222fdc445bf6e5a5b12aec03
+      internalID: 16690777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_192
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1090
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a03b9d1fb4214b98ff5bf0a4f4f44
+      internalID: -802702483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_193
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeec4594a3219834492dbb3e06b505de
+      internalID: 513094172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_194
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1026
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed344518b951fb347b9dde1ef9a98a3a
+      internalID: -756131799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_195
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1026
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0acf76d8f9a25f46a8bae1181dd9a89
+      internalID: 1207548391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecee7e41c472a9e44be37102574fae5e
+      internalID: -277442053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_197
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 962
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd4e80c0b0760640b580b578bbb78b9
+      internalID: -968510509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_198
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 962
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cdaf2dd0b9a7c448e578effe9b49a8
+      internalID: -775702423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377fbf200a24666429596e82e66bf5f9
+      internalID: -372957653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_200
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed31ae190b209b479e5e662b7b6ddf1
+      internalID: -656532406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_201
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532dfb85fc1bf1d4ea4f31302914cd42
+      internalID: -529138630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216bcafb4d83d7b4dabf2a59d56df9a2
+      internalID: 1771062226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_203
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608457857ebf8f9489e78578dac9923e
+      internalID: -52722684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_204
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd64decddcf55db4ab25da91647743d4
+      internalID: 940842262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4b4be5cc217bf429313f616d9750eb
+      internalID: -1249784005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_206
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ddfa03e0fb379418d8369730c41b9c
+      internalID: -319660275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_207
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f518bd5ceb041499476296e78e8682
+      internalID: 26460818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cec8491d762344b0201a741c1b08e
+      internalID: -468271316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b506a1fca2324458a121b63ebbce1e
+      internalID: 1344065803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_210
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6990ce3d04c82a747a17628d1100d672
+      internalID: 167973116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff828de5961aa14285f3a1046bcac57
+      internalID: -349967891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_212
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f13632909d6b684abc9e3aa44c7d880
+      internalID: -2080376338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_213
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e169750553b5d4594b213e1c3ef229
+      internalID: -401114107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f235c66ffe2a45a5996ece09e09af
+      internalID: 92801990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a536294d13eb2c4283c35dd1afd2fac
+      internalID: -829297066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_216
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1328505f282634d968aae09a60ca26
+      internalID: -1932128326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ad69e31f1d82342a402173d63711af
+      internalID: 1273712797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_218
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4db6866c523cd409a3af7379be4d30
+      internalID: -1824438084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_219
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202206220a9c9da44ad3e9cdbff71efc
+      internalID: -2001154267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a4947977289e45a1cd8617ebc8b08
+      internalID: -1248158707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_221
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43592d2a5f35e2d4997ead6ad8aab72b
+      internalID: -352203591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_222
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba675c9cebaec446948ea5f10a326bb
+      internalID: 1759530888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47965619153cc06448ac7d7a0751ca0f
+      internalID: 702713409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_224
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2467cda714f434d9d7c828a750f98d
+      internalID: 2078185717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_225
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3fdc1ac98217041b5c502f5ec611d8
+      internalID: -225177799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b42eb68c5aab4387e41f59f9a3193
+      internalID: 1515804467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_227
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6914ec9e2c2dbf14487e147ae9468319
+      internalID: 1201893526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_228
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f400345a5edb4f8c03d14242ad99f
+      internalID: 1041599848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_229
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37000a38f5ffd8a4397b2de0d1829d46
+      internalID: 817985314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_230
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43d801ff6fdde42a5dea4a5db7170f
+      internalID: 714612773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_231
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47be8c431e9006846a48a67f85d4589a
+      internalID: -1747557149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b907b67e40ee0b941af871a3d1cab56f
+      internalID: 297758395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_233
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c272d132c152e4fbc7dd373cc4c0cf
+      internalID: 832346418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_234
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862805898a07edd45bf7d32f06dd3f13
+      internalID: -633584079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_235
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6fecf0dec625b419a9a5a87e448d3e
+      internalID: -610577849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_236
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5482a7cfcd83dbe47aea477fcfa64ea9
+      internalID: 232216442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_237
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff9534665f9a0e438f89b501f985462
+      internalID: -1340324887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b203a7fdd2c7442a5f817fbadb7a6f
+      internalID: -424064793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_239
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd7f7c54a349f149843b67ad10b27a1
+      internalID: 1294333233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_240
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffc161296245e646a4ea52ba41b7d9e
+      internalID: -538238639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_241
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce35f98ce3435ad4dbada125b5b0e31f
+      internalID: 59541216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772d12d2f799b4458017155c8564027
+      internalID: -2060402763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_243
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a4e32a00d87a488d566635fd77b1c
+      internalID: 49385811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dedf4668e76b184faf29703a6c2eb8a
+      internalID: -1919498085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_245
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64205bb2942c9a54a8daa84ae3458247
+      internalID: -2072735901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_246
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f1216bcb4bdb6469938367681ba708
+      internalID: 652546376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_247
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae8faef032ba574bbc428dbfbbc442f
+      internalID: -533035440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_248
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a644037589f70489ff3c6f4ca0a150
+      internalID: -2122915468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_249
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889c82a1e10e2cb4c90087f9b700957d
+      internalID: -1738131967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_250
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeef224157c21c4594c7fda7cbba32c
+      internalID: -805692841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_251
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6259becddf0e104792ca5b479ab0718
+      internalID: -98536509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_252
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b53d97514d752478508284b7688749
+      internalID: -1680698286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_253
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c96db3d4e1815949b58a022a8018ac5
+      internalID: 1277029982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_254
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f552b7d31682cb41afa0a8008347b9b
+      internalID: -533811922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_255
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81628288c6288aa469fee6bd2d39c908
+      internalID: 1805952632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_256
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d9cf33748f38440818d8a096f235f1
+      internalID: -839940404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_257
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac9ae984db4ee74baa47f04caefb0c1
+      internalID: -1733359235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_258
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f9d2210016af041a49604b5e639612
+      internalID: -1736568513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_259
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314475b747d463943bbbc3d38dba76f0
+      internalID: -1354168868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_260
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63e57a74c325094785831f7d6559b79
+      internalID: 434167076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_261
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83a50124d274048accc09f815c8fa7
+      internalID: -970400378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_262
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c693a799efe2c4dbdee87026ec5401
+      internalID: -952243042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_263
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf955371f4584b47bb1e5a40ca3e913
+      internalID: 55524914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_264
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5839dee5b02ea4e85e971142955d39
+      internalID: 60590388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_265
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f41968fc778ba4abd5914af28ded99
+      internalID: 187811358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_266
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9711a23a08681c443a40426dccb0746b
+      internalID: -1573216234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_267
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c260fc8aff129f43acdf9404bde20c2
+      internalID: -1404886618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_268
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b099e27fd065a49b6bb380e0337906
+      internalID: -609369248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_269
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3d2494c8db3924dac2986092177b6a
+      internalID: -360254554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_270
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc47019bff01ee4dabbe4c93fcf652c
+      internalID: 250062666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_271
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43819ce1ae33482428975ce4025605e4
+      internalID: -628159292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hold_Preview_Border_272
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd3c7f6e552a264d8000ab710c82076
+      internalID: 824218883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hold_Preview_Border_0: -975224022
+      Hold_Preview_Border_1: -906391295
+      Hold_Preview_Border_10: -36699767
+      Hold_Preview_Border_100: -153168413
+      Hold_Preview_Border_101: -927932204
+      Hold_Preview_Border_102: 1942949167
+      Hold_Preview_Border_103: 2135744988
+      Hold_Preview_Border_104: -761178689
+      Hold_Preview_Border_105: -189319333
+      Hold_Preview_Border_106: 1136291410
+      Hold_Preview_Border_107: -1129187907
+      Hold_Preview_Border_108: -820979664
+      Hold_Preview_Border_109: 1999557180
+      Hold_Preview_Border_11: -708699142
+      Hold_Preview_Border_110: -360120286
+      Hold_Preview_Border_111: -364563899
+      Hold_Preview_Border_112: -639261797
+      Hold_Preview_Border_113: -1191212775
+      Hold_Preview_Border_114: -1446016601
+      Hold_Preview_Border_115: 2102929660
+      Hold_Preview_Border_116: 679640138
+      Hold_Preview_Border_117: -1606555929
+      Hold_Preview_Border_118: -1083630420
+      Hold_Preview_Border_119: -790085079
+      Hold_Preview_Border_12: 1579424988
+      Hold_Preview_Border_120: 165312402
+      Hold_Preview_Border_121: 746850712
+      Hold_Preview_Border_122: -1951888487
+      Hold_Preview_Border_123: 114202538
+      Hold_Preview_Border_124: -1839659640
+      Hold_Preview_Border_125: 1770126267
+      Hold_Preview_Border_126: -1655842940
+      Hold_Preview_Border_127: 255028481
+      Hold_Preview_Border_128: -568214252
+      Hold_Preview_Border_129: 551857345
+      Hold_Preview_Border_13: 313984781
+      Hold_Preview_Border_130: -232031660
+      Hold_Preview_Border_131: 916381155
+      Hold_Preview_Border_132: 1978829529
+      Hold_Preview_Border_133: -1592188442
+      Hold_Preview_Border_134: -1979293508
+      Hold_Preview_Border_135: -348049974
+      Hold_Preview_Border_136: -413339159
+      Hold_Preview_Border_137: 109222613
+      Hold_Preview_Border_138: 1116457714
+      Hold_Preview_Border_139: 731480070
+      Hold_Preview_Border_14: 934855390
+      Hold_Preview_Border_140: 1899088833
+      Hold_Preview_Border_141: 2102947434
+      Hold_Preview_Border_142: -1482690403
+      Hold_Preview_Border_143: 905061993
+      Hold_Preview_Border_144: 1918256709
+      Hold_Preview_Border_145: -743325347
+      Hold_Preview_Border_146: 325315273
+      Hold_Preview_Border_147: 1875101394
+      Hold_Preview_Border_148: 1800074628
+      Hold_Preview_Border_149: -232744236
+      Hold_Preview_Border_15: -1085016130
+      Hold_Preview_Border_150: 1169161638
+      Hold_Preview_Border_151: 1572412527
+      Hold_Preview_Border_152: -611905183
+      Hold_Preview_Border_153: -1581675846
+      Hold_Preview_Border_154: -24119233
+      Hold_Preview_Border_155: -603280576
+      Hold_Preview_Border_156: 1920099179
+      Hold_Preview_Border_157: 1345792244
+      Hold_Preview_Border_158: -1554274008
+      Hold_Preview_Border_159: 1247770848
+      Hold_Preview_Border_16: 1988258771
+      Hold_Preview_Border_160: 219565013
+      Hold_Preview_Border_161: -136386623
+      Hold_Preview_Border_162: 1240200904
+      Hold_Preview_Border_163: 1538540200
+      Hold_Preview_Border_164: -1314093180
+      Hold_Preview_Border_165: -536272107
+      Hold_Preview_Border_166: -2101965509
+      Hold_Preview_Border_167: 302104134
+      Hold_Preview_Border_168: -1912416045
+      Hold_Preview_Border_169: 1980885108
+      Hold_Preview_Border_17: 708004707
+      Hold_Preview_Border_170: 385050091
+      Hold_Preview_Border_171: 531859571
+      Hold_Preview_Border_172: 181289711
+      Hold_Preview_Border_173: -732912237
+      Hold_Preview_Border_174: 97914090
+      Hold_Preview_Border_175: 1886713088
+      Hold_Preview_Border_176: 1697029383
+      Hold_Preview_Border_177: -1968055909
+      Hold_Preview_Border_178: -1968276035
+      Hold_Preview_Border_179: -1411633619
+      Hold_Preview_Border_18: 348565396
+      Hold_Preview_Border_180: -1786949048
+      Hold_Preview_Border_181: -734434604
+      Hold_Preview_Border_182: 371259445
+      Hold_Preview_Border_183: 1920632626
+      Hold_Preview_Border_184: 611117683
+      Hold_Preview_Border_185: 592032508
+      Hold_Preview_Border_186: -1733759967
+      Hold_Preview_Border_187: -1640285186
+      Hold_Preview_Border_188: -973482093
+      Hold_Preview_Border_189: -710293817
+      Hold_Preview_Border_19: -864108741
+      Hold_Preview_Border_190: -951635134
+      Hold_Preview_Border_191: 16690777
+      Hold_Preview_Border_192: -802702483
+      Hold_Preview_Border_193: 513094172
+      Hold_Preview_Border_194: -756131799
+      Hold_Preview_Border_195: 1207548391
+      Hold_Preview_Border_196: -277442053
+      Hold_Preview_Border_197: -968510509
+      Hold_Preview_Border_198: -775702423
+      Hold_Preview_Border_199: -372957653
+      Hold_Preview_Border_2: 458131537
+      Hold_Preview_Border_20: 1665994613
+      Hold_Preview_Border_200: -656532406
+      Hold_Preview_Border_201: -529138630
+      Hold_Preview_Border_202: 1771062226
+      Hold_Preview_Border_203: -52722684
+      Hold_Preview_Border_204: 940842262
+      Hold_Preview_Border_205: -1249784005
+      Hold_Preview_Border_206: -319660275
+      Hold_Preview_Border_207: 26460818
+      Hold_Preview_Border_208: -468271316
+      Hold_Preview_Border_209: 1344065803
+      Hold_Preview_Border_21: -1834342438
+      Hold_Preview_Border_210: 167973116
+      Hold_Preview_Border_211: -349967891
+      Hold_Preview_Border_212: -2080376338
+      Hold_Preview_Border_213: -401114107
+      Hold_Preview_Border_214: 92801990
+      Hold_Preview_Border_215: -829297066
+      Hold_Preview_Border_216: -1932128326
+      Hold_Preview_Border_217: 1273712797
+      Hold_Preview_Border_218: -1824438084
+      Hold_Preview_Border_219: -2001154267
+      Hold_Preview_Border_22: 543927362
+      Hold_Preview_Border_220: -1248158707
+      Hold_Preview_Border_221: -352203591
+      Hold_Preview_Border_222: 1759530888
+      Hold_Preview_Border_223: 702713409
+      Hold_Preview_Border_224: 2078185717
+      Hold_Preview_Border_225: -225177799
+      Hold_Preview_Border_226: 1515804467
+      Hold_Preview_Border_227: 1201893526
+      Hold_Preview_Border_228: 1041599848
+      Hold_Preview_Border_229: 817985314
+      Hold_Preview_Border_23: 474518711
+      Hold_Preview_Border_230: 714612773
+      Hold_Preview_Border_231: -1747557149
+      Hold_Preview_Border_232: 297758395
+      Hold_Preview_Border_233: 832346418
+      Hold_Preview_Border_234: -633584079
+      Hold_Preview_Border_235: -610577849
+      Hold_Preview_Border_236: 232216442
+      Hold_Preview_Border_237: -1340324887
+      Hold_Preview_Border_238: -424064793
+      Hold_Preview_Border_239: 1294333233
+      Hold_Preview_Border_24: 2087111288
+      Hold_Preview_Border_240: -538238639
+      Hold_Preview_Border_241: 59541216
+      Hold_Preview_Border_242: -2060402763
+      Hold_Preview_Border_243: 49385811
+      Hold_Preview_Border_244: -1919498085
+      Hold_Preview_Border_245: -2072735901
+      Hold_Preview_Border_246: 652546376
+      Hold_Preview_Border_247: -533035440
+      Hold_Preview_Border_248: -2122915468
+      Hold_Preview_Border_249: -1738131967
+      Hold_Preview_Border_25: -202739750
+      Hold_Preview_Border_250: -805692841
+      Hold_Preview_Border_251: -98536509
+      Hold_Preview_Border_252: -1680698286
+      Hold_Preview_Border_253: 1277029982
+      Hold_Preview_Border_254: -533811922
+      Hold_Preview_Border_255: 1805952632
+      Hold_Preview_Border_256: -839940404
+      Hold_Preview_Border_257: -1733359235
+      Hold_Preview_Border_258: -1736568513
+      Hold_Preview_Border_259: -1354168868
+      Hold_Preview_Border_26: -515383263
+      Hold_Preview_Border_260: 434167076
+      Hold_Preview_Border_261: -970400378
+      Hold_Preview_Border_262: -952243042
+      Hold_Preview_Border_263: 55524914
+      Hold_Preview_Border_264: 60590388
+      Hold_Preview_Border_265: 187811358
+      Hold_Preview_Border_266: -1573216234
+      Hold_Preview_Border_267: -1404886618
+      Hold_Preview_Border_268: -609369248
+      Hold_Preview_Border_269: -360254554
+      Hold_Preview_Border_27: -116547950
+      Hold_Preview_Border_270: 250062666
+      Hold_Preview_Border_271: -628159292
+      Hold_Preview_Border_272: 824218883
+      Hold_Preview_Border_28: 471323737
+      Hold_Preview_Border_29: 1890173241
+      Hold_Preview_Border_3: 48924756
+      Hold_Preview_Border_30: 1259641092
+      Hold_Preview_Border_31: 49285388
+      Hold_Preview_Border_32: -1356073992
+      Hold_Preview_Border_33: 450161112
+      Hold_Preview_Border_34: -2076797617
+      Hold_Preview_Border_35: -1067612062
+      Hold_Preview_Border_36: 1584064328
+      Hold_Preview_Border_37: 1021388743
+      Hold_Preview_Border_38: -686505601
+      Hold_Preview_Border_39: -1829946303
+      Hold_Preview_Border_4: -2031554637
+      Hold_Preview_Border_40: 1809087334
+      Hold_Preview_Border_41: -1832788610
+      Hold_Preview_Border_42: 2101630953
+      Hold_Preview_Border_43: 734084189
+      Hold_Preview_Border_44: -360147635
+      Hold_Preview_Border_45: 1420477384
+      Hold_Preview_Border_46: -243283733
+      Hold_Preview_Border_47: 1440966947
+      Hold_Preview_Border_48: -86467868
+      Hold_Preview_Border_49: -221699606
+      Hold_Preview_Border_5: -696425769
+      Hold_Preview_Border_50: -1996230661
+      Hold_Preview_Border_51: 1726708996
+      Hold_Preview_Border_52: 1042839850
+      Hold_Preview_Border_53: 176321652
+      Hold_Preview_Border_54: -527286773
+      Hold_Preview_Border_55: 1958446480
+      Hold_Preview_Border_56: -1632961834
+      Hold_Preview_Border_57: -143113182
+      Hold_Preview_Border_58: -278794568
+      Hold_Preview_Border_59: 910786861
+      Hold_Preview_Border_6: -1375135918
+      Hold_Preview_Border_60: 1782687107
+      Hold_Preview_Border_61: 642792500
+      Hold_Preview_Border_62: 1321709657
+      Hold_Preview_Border_63: 1055480603
+      Hold_Preview_Border_64: -1202063053
+      Hold_Preview_Border_65: -965286476
+      Hold_Preview_Border_66: 820762536
+      Hold_Preview_Border_67: -1302997006
+      Hold_Preview_Border_68: -983842298
+      Hold_Preview_Border_69: 1853390894
+      Hold_Preview_Border_7: -1024050214
+      Hold_Preview_Border_70: -362553754
+      Hold_Preview_Border_71: 1034117067
+      Hold_Preview_Border_72: -1607412726
+      Hold_Preview_Border_73: -297769539
+      Hold_Preview_Border_74: 1758214426
+      Hold_Preview_Border_75: -315228593
+      Hold_Preview_Border_76: -855825241
+      Hold_Preview_Border_77: -880506735
+      Hold_Preview_Border_78: 1566310929
+      Hold_Preview_Border_79: 1691661299
+      Hold_Preview_Border_8: -833291323
+      Hold_Preview_Border_80: -185522993
+      Hold_Preview_Border_81: -2027339333
+      Hold_Preview_Border_82: -1338414706
+      Hold_Preview_Border_83: 762882231
+      Hold_Preview_Border_84: -1727532996
+      Hold_Preview_Border_85: -1675633202
+      Hold_Preview_Border_86: 222578542
+      Hold_Preview_Border_87: 1994479070
+      Hold_Preview_Border_88: 461878462
+      Hold_Preview_Border_89: -1053001034
+      Hold_Preview_Border_9: 2062033755
+      Hold_Preview_Border_90: -1996219149
+      Hold_Preview_Border_91: -1718786437
+      Hold_Preview_Border_92: 746795303
+      Hold_Preview_Border_93: 276497936
+      Hold_Preview_Border_94: 616002590
+      Hold_Preview_Border_95: 1547650111
+      Hold_Preview_Border_96: 1106952841
+      Hold_Preview_Border_97: 1723639119
+      Hold_Preview_Border_98: -576027467
+      Hold_Preview_Border_99: -1656255994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

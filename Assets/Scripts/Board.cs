@@ -31,7 +31,11 @@ public class Board : MonoBehaviour
     AudioManager audioManager;
 
     public static bool isPaused = false;
+    
     TetrominoData currentData;
+
+    private float lastTapTime;
+    private float doubleTapTimeThreshold = 0.5f; // Ngưỡng thời gian giữa hai lần chạm
 
     public RectInt Bounds
     {
@@ -54,11 +58,12 @@ public class Board : MonoBehaviour
         }
         SetNextTetromino();
         SetHoldTetromino();
-        StartGame();
     }
 
-    private void StartGame()
+    public void StartGame()
     {
+        lastTapTime = -doubleTapTimeThreshold;
+        audioManager.MusicSource.Play();
         this.tilemap.ClearAllTiles();
         Time.timeScale = 1f;
         currentScore = 0;
@@ -75,6 +80,9 @@ public class Board : MonoBehaviour
             UpdateUI();
         }
         CheckUserInput();
+#if UNITY_IOS
+        CheckTouchInput();
+#endif
     }
     private void CheckUserInput()
     {
@@ -90,6 +98,12 @@ public class Board : MonoBehaviour
                 {
                     ResumeGame();
                 }
+                if (uiManager.optionScreen.activeSelf) // Kiểm tra xem màn hình pause có đang hiển thị không
+                {
+                    audioManager.PlaySFX(audioManager.clicked);
+                    uiManager.optionScreen.SetActive(false);
+                    uiManager.pauseScreen.SetActive(true);
+                }
             }
         }
 
@@ -99,6 +113,37 @@ public class Board : MonoBehaviour
             SwapHoldTetromino(); ;
         }
     }
+
+    private void CheckTouchInput()
+    {
+        // Kiểm tra các touch được thực hiện trên màn hình
+        for (int i = 0; i < Input.touchCount; ++i)
+        {
+            Touch touch = Input.GetTouch(i);
+
+            // Kiểm tra nếu touch được kích hoạt
+            if (touch.phase == TouchPhase.Ended)
+            {
+                // Lấy thời gian hiện tại
+                float currentTime = Time.time;
+
+                // Tính thời gian kể từ lần chạm trước đó
+                float timeSinceLastTap = currentTime - lastTapTime;
+
+                // Nếu thời gian kể từ lần chạm trước đó nhỏ hơn ngưỡng thời gian giữa double tap
+                if (timeSinceLastTap < doubleTapTimeThreshold)
+                {
+                    // Thực hiện hành động khi double tap
+                    SwapHoldTetromino();
+                }
+
+                // Lưu thời gian của lần chạm hiện tại để kiểm tra double tap cho lần chạm tiếp theo
+                lastTapTime = currentTime;
+            }
+        }
+    }
+
+
     public void Option()
     {
         audioManager.PlaySFX(audioManager.clicked);
@@ -110,13 +155,14 @@ public class Board : MonoBehaviour
         }
     }
 
+
     public void CloseOption()
     {
         audioManager.PlaySFX(audioManager.clicked);
         uiManager.optionScreen.SetActive(false);
         uiManager.pauseScreen.SetActive(true);
     }
-    private void PauseGame()
+    public void PauseGame()
     {
         Time.timeScale = 0;
         uiManager.Pause();
@@ -124,9 +170,9 @@ public class Board : MonoBehaviour
         isPaused = true;
     }
 
-    private void ResumeGame()
+    public void ResumeGame()
     {
-        audioManager.MusicSource.Play();
+        audioManager.MusicSource.UnPause();
         Time.timeScale = 1;
         uiManager.pauseScreen.SetActive(false);
         isPaused = false;
@@ -146,7 +192,18 @@ public class Board : MonoBehaviour
 
         foreach (var cell in nextTetromino.cells)
         {
-            nextTetrominoTilemap.SetTile((Vector3Int)cell + nextPosition, nextTetromino.tile);
+            Vector3Int adjustedPosition = nextPosition;
+
+            if (nextTetromino.GetTetromino().Equals(Tetromino.I))
+            {
+                adjustedPosition += new Vector3Int(0, -1, 0);
+            }
+            else if (nextTetromino.GetTetromino().Equals(Tetromino.O))
+            {
+                adjustedPosition += new Vector3Int(-1, 0, 0);
+            }
+
+            nextTetrominoTilemap.SetTile((Vector3Int)cell + adjustedPosition, nextTetromino.tile);
         }
     }
 
@@ -161,10 +218,21 @@ public class Board : MonoBehaviour
     private void DrawHoldTetromino()
     {
         holdTetrominoTilemap.ClearAllTiles();
-
+        Vector2 holdPositionOffset = new Vector2(-0.5f, -0.5f);
         foreach (var cell in holdTetromino.cells)
         {
-            holdTetrominoTilemap.SetTile((Vector3Int)cell + holdPosition, holdTetromino.tile);
+            Vector3Int adjustedPosition = holdPosition;
+
+            if (holdTetromino.GetTetromino().Equals(Tetromino.I))
+            {
+                adjustedPosition += new Vector3Int(0, -1, 0);
+            }
+            else if (holdTetromino.GetTetromino().Equals(Tetromino.O))
+            {
+                adjustedPosition += new Vector3Int(-1, 0, 0);
+            }
+
+            holdTetrominoTilemap.SetTile((Vector3Int)cell + adjustedPosition, holdTetromino.tile);
         }
     }
 
@@ -220,6 +288,12 @@ public class Board : MonoBehaviour
         SetNextTetromino();
     }
 
+    public void ClearTiles()
+    {
+        this.tilemap.ClearAllTiles();
+        this.holdTetrominoTilemap.ClearAllTiles();
+        this.nextTetrominoTilemap.ClearAllTiles();
+    }
 
     private void GameOver()
     {
